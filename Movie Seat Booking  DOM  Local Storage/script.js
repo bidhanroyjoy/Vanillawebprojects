@@ -25,7 +25,7 @@ function updateSelectedCount() {
   const selectedSeatsCount = selectedSeats.length;
 
   count.innerText = selectedSeatsCount;
-  total.innerText = selectedSeatsCount * ticketPrice;
+  total.innerText = selectedSeatsCount * ticketPrice; 
 }
 
 function populateUI() {
